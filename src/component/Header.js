@@ -24,7 +24,7 @@ const Header = () => {
       {/* END NAV */}
 
       {/* BANNER 1 */}
-      <div className="bg-dark-gray pv4">
+      <div className="bg-dark-gray pv4 ph3">
         <div className="f4 tc">
           <span className="white">What are you working on?</span>
           <span className="silver ml2">Dribbble is where designers get inspired and hired. </span>
@@ -36,9 +36,10 @@ const Header = () => {
       {/* END BANNER 1 */}
 
       {/* BANNER 2 */}
-      <div className="pv3 bg-mid-gray tc">
-        <span className="silver">Looking to hire a designer ?</span>
-        <a href="#" className="white underline ml2">Learn more</a>
+      <div className="pv3 bg-mid-gray tc ph3">
+        <span className="silver">Looking to hire a <span className="nowrap">designer ?</span></span>
+        <br className="db dn-ns" />
+        <a href="#" className="white underline ml2"><span className="nowrap">Learn more</span></a>
       </div>
       {/* END BANNER 2 */}
 

@@ -37,7 +37,7 @@ class Content extends React.Component {
         {/* END FILTER */}
 
         {/* CONTENT BLOCK */}
-        <div className="bg-light-gray pv4 ph4 bt b--moon-gray">
+        <div className="bg-light-gray pv4 ph4-l bt b--moon-gray tc">
           {renderItems}
         </div>
         {/* END CONTENT BLOCK */}

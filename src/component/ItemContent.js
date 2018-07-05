@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemContent = (props) => {
   return(
-    <div className="w-25 dib">
+    <div className="w-80 w-50-m w-25-l dib">
       <div className="w-90 pa2 bg-white br1 mv3 center" style={{boxShadow: '0px 1px 2px rgb(163, 157, 157)'}}>
         <img src={props.image} />
         <i class="fas fa-paperclip silver"></i>
