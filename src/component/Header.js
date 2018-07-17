@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return(
-    <div className="">
+    <div className="dn db-l">
 
       {/* NAV */}
       <div className='bg-mid-gray relative'>
